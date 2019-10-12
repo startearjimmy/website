@@ -1,0 +1,70 @@
+body {
+  background-image: url("https://plus.nctu.edu.tw/assets/logo22-aa2cbf8a416ebd64859993acc6c97feb.png");
+
+  background-color: #66ccff;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  width: 200px;
+}
+
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0066ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+}
+
+.todoListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #8e8e8f;
+  cursor: pointer;
+}
+
+.todoListMain .theList {
+  list-style: none;
+  color: red;
+  padding-left: 0;
+  width: 250px;
+}
+
+.todoListMain .theList li {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+ul.theList {
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.theList li {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: rgba(255, 255, 255, 0.5);
+}
+
+.todoListMain .theList li:hover {
+  background-color: rgb(116, 34, 48);
+  cursor: pointer;
+}

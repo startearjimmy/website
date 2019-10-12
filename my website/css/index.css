@@ -1,0 +1,40 @@
+body{
+    background-image: url("back.png");
+    background-image: url("4.jpeg");
+    background-color: lightblue;  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+}
+div.img{
+    width:1250px;
+    margin: auto;
+}
+img.pic {
+    width: 300px;
+    height: 400px;
+    border-style: outset;
+    border-width: thick;
+}
+a.b {
+    background-color: #d182c2;
+    box-shadow: 2px 4px 4px black;
+    border-width: 1px;
+    padding: 5px;
+    border-style: outset;
+    border-color: #0000ff;
+    border-radius: 2px;
+}
+div.btn {
+    height: 30px;
+    width:220px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h1{
+    width:100px;
+    margin: auto;
+}
+

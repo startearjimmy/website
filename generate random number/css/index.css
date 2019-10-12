@@ -1,0 +1,26 @@
+div.jumbotron {
+    background-color: #8ddad2;
+    text-align: center;
+}
+div.item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: blue;
+    box-sizing: inherit;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 8px 0px black;
+    text-align: center;
+    background-color: #56cddc
+}
+div.form-group row{
+    margin-top: 10px;
+}
+
+div.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
